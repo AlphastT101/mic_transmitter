@@ -9,13 +9,14 @@ def main():
 
     ffmpeg_command = [
         "ffmpeg",
-        "-f", "alsa",  # Use ALSA for audio capture
+        "-f", "android",  # Use Android input format
         "-i", "default",
         "-ar", "48000",  # Sampling rate
         "-ac", "1",      # Mono audio
         "-f", "s16le",   # Raw PCM data format
         "-"
     ]
+
 
     ffmpeg = subprocess.Popen(ffmpeg_command, stdout=subprocess.PIPE)
 
