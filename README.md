@@ -10,7 +10,7 @@ Run this script where the input audio will be transmitted.
 ## mic.py
 Run this script in the device you want to use as a microphone. It will transmit the input audio to the specified LAN IP(the ip printed after running receiver.py on the target device).
 <hr>
-You have to run receiver.py first. Then run transmitter.py after that. Otherwise it will cause an error.
+You have to run receiver.py first. Then run mic.py after that. Otherwise it will cause an error.
 
 I used my PC as the microphone and phone as the receiver, my phone plays the microphone audio without any kind of lags.
 
