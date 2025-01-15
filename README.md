@@ -1,7 +1,6 @@
 I developed this project as part of the hackclub event organized by highseas, which took approximately 20 hours to complete. I hope you find it interesting.
 
 <hr>
-# Mic transmiter
 Use any device as a microphone.
 <hr>
 
